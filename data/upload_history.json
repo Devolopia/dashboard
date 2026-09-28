@@ -1,0 +1,19 @@
+[
+    {
+        "timestamp": "2026-09-28 21:50:42",
+        "filename": "sample_sales_august_2026.xlsx",
+        "saved_filename": "20260928_215042_sample_sales_august_2026.xlsx",
+        "stats": {
+            "records_received": 2472,
+            "new_records": 2472,
+            "updated_records": 0,
+            "duplicate_ignored": 0
+        },
+        "missing_dates": [
+            "2026-08-15",
+            "2026-08-16"
+        ],
+        "expected_days": 31,
+        "actual_days": 29
+    }
+]

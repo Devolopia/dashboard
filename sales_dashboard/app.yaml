@@ -1,0 +1,10 @@
+# Databricks App Configuration File
+app:
+  name: "sales-dashboard"
+  command: "streamlit run app/app.py"
+  env:
+    - name: DATABRICKS_DATA_PATH
+      # UPDATE THIS VALUE to point to your Databricks Unity Catalog Volume!
+      # Without a Volume path, Databricks Apps ephemeral storage will wipe 
+      # your parquet files and upload history every time the app restarts.
+      value: "/Volumes/your_catalog/your_schema/sales_dashboard_data"
